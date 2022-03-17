@@ -38,5 +38,35 @@ public class LogoutTest {
   }
   @Test
   public void logout() {
+    driver.get("https://www.sportchek.ca/");
+    driver.manage().window().setSize(new Dimension(1025, 699));
+    {
+      WebElement element = driver.findElement(By.cssSelector(".page-header__account-button"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element).perform();
+    }
+    driver.findElement(By.cssSelector(".page-header__account-button")).click();
+    {
+      WebElement element = driver.findElement(By.tagName("body"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element, 0, 0).perform();
+    }
+    {
+      WebElement element = driver.findElement(By.cssSelector(".header-account-icon__dropdown-item:nth-child(2) > .header-account-icon__dropdown-item-link"));
+      Actions builder = new Actions(driver);
+      builder.moveToElement(element).perform();
+    }
+    js.executeScript("window.scrollTo(0,66.4000015258789)");
+    js.executeScript("window.scrollTo(0,217.60000610351562)");
+    js.executeScript("window.scrollTo(0,0)");
+    driver.findElement(By.cssSelector(".page-header__account-button")).click();
+    driver.findElement(By.cssSelector(".page-header__account-button")).click();
+    driver.findElement(By.cssSelector(".header-account-icon__dropdown-item-button")).click();
+    driver.findElement(By.cssSelector(".header-account-icon__dropdown-item-button")).click();
+    {
+      WebElement element = driver.findElement(By.cssSelector(".header-account-icon__dropdown-item-button"));
+      Actions builder = new Actions(driver);
+      builder.doubleClick(element).perform();
+    }
   }
 }
