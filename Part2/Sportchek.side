@@ -682,18 +682,6 @@
       ],
       "value": ""
     }, {
-      "id": "5a9e3f53-f69a-486a-97a5-3e23b72d1139",
-      "comment": "",
-      "command": "click",
-      "target": "id=honeyContainer",
-      "targets": [
-        ["id=honeyContainer", "id"],
-        ["css=#honeyContainer", "css:finder"],
-        ["xpath=//div[@id='honeyContainer']", "xpath:attributes"],
-        ["xpath=//html/div", "xpath:position"]
-      ],
-      "value": ""
-    }, {
       "id": "a896f728-e245-4223-86e1-aed6257e3c89",
       "comment": "",
       "command": "mouseOver",
