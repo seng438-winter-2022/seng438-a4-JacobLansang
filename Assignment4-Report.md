@@ -14,6 +14,48 @@
 
 # Analysis of 10 Mutants of the Range class 
 
+1. Less than to less or equal (contains()) -> KILLED:
+
+This mutation changed an equality in line 144 to less than or equal instead of less than. This mutation was killed by one of our test cases because this test case did account for boundary cases when it came to inputs for this method.
+
+2. Incremented (a++) double field lower (contains()) -> SURVIVED:
+
+This mutation post-incremented the value called "lower" in the contains methods. This mutation survived because it get incremented after it is used in this line and gets returned, the inequality does not make sense as the lower value gets increased so the value is no longer within the correct range. 
+
+3. Decremented (--a) double fieldupper (contains()) -> KILLED:
+
+This mutation pre-incremented the value called upper in our contains method. This mutation was killed because our tests accounted for 
+
+4. Greater than to equal -> KILLED (intersects()):
+
+This mutation changed the equality from greater than to equal. This test was killed because we tested this method by using an equal value in our tests that failed for this case. 
+
+5. Incremented (a++) double field lower -> SURVIVED (intersects()):
+
+This mutation changed the value of lower by incrementing it after it is returned. This mutant survived because the value of the lower bound after it is incremented means that the condition in line 157 or 158 is no longer true.
+
+6. Negated double field lower -> KILLED (intersects()):
+
+This mutation changed the value of lower to the opposite sign. For example, if lower was positive it would be changed to negative. This mutation was killed because the value of lower, when changed to negative, would only change the value of the lower bound to something different, which woudl not effect the conditional statements in line 157 or 158.
+
+7. Incremented (a++) double local variable number 3 -> SURVIVED (intersects()):
+
+This mutation changed the value of lower by post-incrementing it. This mutation survived because we did not test near the boundary of b1 that is close to this.lower. 
+
+8. Greater or equal to less than -> SURVIVED (intersects()):
+
+This mutation changed the greater equality to a less than equality. This mutation survived because we did not have a test case that covered that section of the code. We do not cover the else statement in line 161.
+
+9. Greater than or equal to equal -> SURVIVED (intersects()):
+
+This mutation changed the greater than or equal equality to a less than equality. This mutation survived because we did not have a test case that covered that section of the code. We do not cover the else statement in line 161.
+
+10. Incremented (a++) double local variable number 1 -> SURVIVED (intersects()):
+
+This mutation changed the value of variable number 1 and post-incremented it. This mutation survived because we did not have a test case that covered that section of the code. We do not cover the else statement in line 161. 
+
+
+This mutation pre-decremented 
 # Report all the statistics and the mutation score for each test class
 
 
