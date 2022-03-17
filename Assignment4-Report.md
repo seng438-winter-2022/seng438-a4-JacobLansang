@@ -64,6 +64,20 @@ This mutation pre-decremented
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
+A way to discuss equivalent mutants, is by analyzing the mutants to see what line of code it effects and whether or not it survives. IF multiple mutants make similar changes to the code on the same line, and all survive, it is reasonable to assume that they are equivalent mutants. 
+
+Some equivalent mutants in DataUtilities:
+Line 104: less than to greater than AND less than to greater or equal -> both mutations survived and made very similar changes to the code
+Line 130: post-increment/decrement of local variable number 2 -> both mutations survived and made identical changes to the code in terms of how it operates
+Line 213: post-increment/decrement of local variable number 3 -> both mutations survived and made identical changes to the code in terms of how it operates
+
+some equivalent mutants in Range:
+Line 123: post-increment/decrement of field upper -> both mutations survived and made very similar changes to the code
+Line 157: pre-increment/decrement of field b0 -> both mutations survived and made very similar changes to the code
+Line 189: not equal to less than AND not equal to less than or equal -> both mutations survived and made very similar changes to the code
+
+The above methodology was applied for finding the equivalent mutants,
+
 # A discussion of what could have been done to improve the mutation score of the test suites
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
