@@ -26,6 +26,13 @@
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
+| Advantages      |  Disadvantages   |
+| --------------- | --------------- |
+| Able to detect most faults in source code   |  Hard to implement   |
+| Can help to find out errors in test cases | Can lead to confusion due to complex mutants created and mistakes in the original code |
+|  Improves quality of software |  Can be time-consuming |
+|  Has a high level of error detection as it finds code ambiguity and incorrect values in variables during early stages |  Is not applicable for black box testing |
+
 # Explain your SELENUIM test case design process
 
 # Explain the use of assertions and checkpoints
@@ -33,6 +40,13 @@
 # how did you test each functionaity with different test data
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
+
+|Selenium      |  Sikulix   |
+| --------------- | --------------- |
+|  |     |
+|                |  Kunal Dhawan   |
+|                |  Chloe Bouchard   |
+|                |  Jacob Lansang   |
 
 # How the team work/effort was divided and managed
 
