@@ -37,7 +37,7 @@
 
 # Explain the use of assertions and checkpoints
 
-# how did you test each functionaity with different test data
+# How did you test each functionaity with different test data
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
@@ -45,7 +45,7 @@
 | --------------- | --------------- |
 | It is a simple chromium extension, hence easier to install and get started | It is a legacy app (jar file) and took more effort to get started    |
 |                |     |
-| --------------- | --------------- |
+|  |  |
 |                |    |
 |                |     |
 
