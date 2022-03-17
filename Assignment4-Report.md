@@ -43,8 +43,9 @@
 
 |Selenium      |  Sikulix   |
 | --------------- | --------------- |
-|  |     |
+| It is a simple chromium extension, hence easier to install and get started | It is a legacy app (jar file) and took more effort to get started    |
 |                |     |
+| --------------- | --------------- |
 |                |    |
 |                |     |
 
