@@ -57,7 +57,7 @@ This mutation changed the value of variable number 1 and post-incremented it. Th
 
 This mutation pre-decremented 
 # Report all the statistics and the mutation score for each test class
-For the RangeTest.java class, our initial mutation score was 34%, with a total of 431/1259 KILLED mutants. After modifying the test cases for RangeTest.java, our final mustation score is ....... with a total of ...../1259 KILLED mutants.
+For the RangeTest.java class, our initial mutation score was 34%, with a total of 431/1259 KILLED mutants. After modifying the test cases for RangeTest.java, our final mustation score is 52% with a total of 653/1259 KILLED mutants.
 
 For the DataUtilitiesTest.java class, our initial mutation score was 
 
