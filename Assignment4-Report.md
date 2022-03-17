@@ -44,12 +44,13 @@
 |Selenium      |  Sikulix   |
 | --------------- | --------------- |
 |  |     |
-|                |  Kunal Dhawan   |
-|                |  Chloe Bouchard   |
-|                |  Jacob Lansang   |
+|                |     |
+|                |    |
+|                |     |
 
 # How the team work/effort was divided and managed
 
+In order to complete the Part A, we all joined together on a call and one team member shared their screen. All together, we then went through the work together. We collectively decided what to write for our tests, and the person sharing their screen was in charge of writing down our suggestions. This was very effective, since 4 people were tackling a problem at the same time.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
