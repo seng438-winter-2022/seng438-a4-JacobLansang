@@ -104,7 +104,16 @@ The above methodology was applied for finding the equivalent mutants,
 |  Has a high level of error detection as it finds code ambiguity and incorrect values in variables during early stages |  Is not applicable for black box testing |
 
 # Explain your SELENUIM test case design process
-
+In order to create SELENIUM test cases, we first had to determine which functionalities we were going to be checking. We decided to test the sportchek website. We listed off some of the the main functionalities that an average user would execute. More specifically, we decided on:
+  -Adding an item to the cart
+  -Purchasing an item
+  -Clearing shopping cart
+  -Logging out
+  -Logging in with valid username and password
+  -Logging in with invalid username and password
+  -Registering for an account
+  -Removing an item from shopping cart
+Once these functionalities were determined, we planned out which steps needed to be taken in order to accomplish all of these actions. After having determined these steps, we opened up SELENIUM and recorded our sequence of steps.
 
 # Explain the use of assertions and checkpoints
 
