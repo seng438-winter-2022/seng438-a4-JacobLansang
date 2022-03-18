@@ -62,7 +62,9 @@ For the RangeTest.java class, our initial mutation score was 34%, with a total o
 For the DataUtilitiesTest.java class, our initial mutation score was 86%, with a total of sdfs/ssfs KILLEd mutants. After modifying the tests cases for DataUtilities.java, our final mutation score is sf%
 
 
-# Analysis drawn on the effectiveness of each of the test classes
+# Analysis drawn on the effectiveness of each of the test 
+Based on the results of the mutation scores, RangeTest has a pretty low effectiveness. It originally resulted in a 34% mutation score, which indicates that our tests did not take into account all possible inputs. 
+On the other hand, our mutation score for DataUtilitiesTest.java was quite high, with a result of 86%. This means that our initial test cases took into account a lot of different possible inputs.
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
@@ -82,6 +84,7 @@ The above methodology was applied for finding the equivalent mutants,
 
 # A discussion of what could have been done to improve the mutation score of the test suites
 
+
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
 | Advantages      |  Disadvantages   |
@@ -92,6 +95,7 @@ The above methodology was applied for finding the equivalent mutants,
 |  Has a high level of error detection as it finds code ambiguity and incorrect values in variables during early stages |  Is not applicable for black box testing |
 
 # Explain your SELENUIM test case design process
+
 
 # Explain the use of assertions and checkpoints
 
