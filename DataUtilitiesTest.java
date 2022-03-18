@@ -126,7 +126,7 @@ public class DataUtilitiesTest extends DataUtilities {
 		double[] test = {1, 2, 3};
 		Number[] answer = {1.0, 2.0, 3.0};
 		
-		assertEquals("Arrays should be equal.", answer, DataUtilities.createNumberArray(test));
+		assertArrayEquals("Arrays should be equal.", answer, DataUtilities.createNumberArray(test));
 		
 	}
 	
@@ -137,7 +137,7 @@ public class DataUtilitiesTest extends DataUtilities {
 		double[] test = {1.45, 2.84, 3.35};
 		Number[] answer = {1.45, 2.84, 3.35};
 		
-		assertEquals("Arrays should be equal.", answer, DataUtilities.createNumberArray(test));
+		assertArrayEquals("Arrays should be equal.", answer, DataUtilities.createNumberArray(test));
 		
 	}
 	
@@ -157,7 +157,7 @@ public class DataUtilitiesTest extends DataUtilities {
 		double[][] test = {{1, 1}, {2, 2}, {3, 3}};
 		Number[][] answer = {{1.0, 1.0}, {2.0, 2.0}, {3.0, 3.0}};
 		
-		assertEquals("Arrays should be equal.", answer, DataUtilities.createNumberArray2D(test));
+		assertArrayEquals("Arrays should be equal.", answer, DataUtilities.createNumberArray2D(test));
 		
 	}
 	
@@ -168,7 +168,7 @@ public class DataUtilitiesTest extends DataUtilities {
 		double[][] test = {};
 		Number[][] answer = {};
 		
-		assertEquals("Array should be empty.", answer, DataUtilities.createNumberArray2D(test));
+		assertArrayEquals("Array should be empty.", answer, DataUtilities.createNumberArray2D(test));
 		
 	}
 	
@@ -328,6 +328,22 @@ public class DataUtilitiesTest extends DataUtilities {
 		assertTrue("Arrays should be equal.", DataUtilities.equal(a,b));
 	}
 	
+	@Test
+	public void equalsTestDifferentLengthsAShorter() {
+		double[][] a = {{1, 2}};
+		double[][] b = {{1, 2}, {3, 4}};
+
+		assertFalse("Arrays should be not equal.", DataUtilities.equal(a,b));
+	}
+	
+	@Test
+	public void equalsTestDifferentLengthsALonger() {
+		double[][] a = {{1, 2}, {3, 4}};
+		double[][] b = {{1, 2}};
+
+		assertFalse("Arrays should be not equal.", DataUtilities.equal(a,b));
+	}
+	
 	////////////////////////////////////////////////////////////////////////////////////////
 	// Coverage tests
 	@Test
@@ -412,7 +428,7 @@ public class DataUtilitiesTest extends DataUtilities {
 		double[][] a = {{1,2}};
 			    
 	    double result[][] = DataUtilities.clone(a);
-	    //assertArrayEquals("Result should equal {{1,2}}.", a, result);
+	   assertArrayEquals("Result should equal {{1,2}}.", a, result);
 	        
 	}
 	
@@ -422,7 +438,7 @@ public class DataUtilitiesTest extends DataUtilities {
 		double[][] a = {null};
 			    
 	    double result[][] = DataUtilities.clone(a);
-	    //assertEquals("Result should {null}.", a, result, );
+	    assertArrayEquals("Result should {null}.", a, result);
 	        
 	}
 	
@@ -471,7 +487,7 @@ public class DataUtilitiesTest extends DataUtilities {
 	    //assertNull("Result should be null.", result);
 	}
 	
-	@Test
+	/*@Test
 	public void calculateRowTotalElseCoverageTest() {
 	    // setup
 	    Mockery mockingContext = new Mockery();
@@ -481,18 +497,18 @@ public class DataUtilitiesTest extends DataUtilities {
 	            one(values).getRowCount();
 	            will(returnValue(2));
 	            one(values).getValue(0, 0);
-	            will(returnValue(null));
+	            will(returnValue(0));
 	            one(values).getValue(1, 0);
 	            will(returnValue(2.5));
 	        }
 	    });
 	    int col = 0;
 	    int[] validRows= {0, 15};	    
-//	    double result = DataUtilities.calculateRowTotal(values, col);
-//	    assertEquals("Result should be 2.5.", 2.5, result, .000000001d);
+	    double result = DataUtilities.calculateRowTotal(values, col);
+	    assertEquals("Result should be 2.5.", 2.5, result, .000000001d);
 	    //assertNull("Result should be null.", result);
 
-	}
+	}*/
 	
 	@Test
 	public void calculateRowTotalValidRowsCoverageTest() {
