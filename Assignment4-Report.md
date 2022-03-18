@@ -79,7 +79,7 @@ On the other hand, our mutation score for DataUtilitiesTest.java was quite high,
 
 A way to discuss equivalent mutants, is by analyzing the mutants to see what line of code it effects and whether or not it survives. IF multiple mutants make similar changes to the code on the same line, and all survive, it is reasonable to assume that they are equivalent mutants. 
 
-Some equivalent mutants in DataUtilities:
+#Some equivalent mutants in DataUtilities:
 
 Line 104: less than to greater than AND less than to greater or equal -> both mutations survived and made very similar changes to the code
 
@@ -88,7 +88,7 @@ Line 130: post-increment/decrement of local variable number 2 -> both mutations 
 Line 213: post-increment/decrement of local variable number 3 -> both mutations survived and made identical changes to the code in terms of how it operates
 
 
-some equivalent mutants in Range:
+#Some equivalent mutants in Range:
 
 Line 123: post-increment/decrement of field upper -> both mutations survived and made very similar changes to the code
 
@@ -148,5 +148,7 @@ In order to check each functionality with different data, we simply duplicated o
 In order to complete the Part A, we all joined together on a call and one team member shared their screen. All together, we then went through the work together. We collectively decided what to write for our tests, and the person sharing their screen was in charge of writing down our suggestions. This was very effective, since 4 people were tackling a problem at the same time.
 
 # Difficulties encountered, challenges overcome, and lessons learned
+
+We all had difficulties running the mutation tests. In the end, one of us managed to get them to run. This meant that we had to be extra mindful of how we went about doing the remainder of the assignment since we could only run the mutation tests once every 15 minutes. Additionally, we were unable to start the lab until later in the week which meant that we were pressed for time and it made it difficult to get the lab done on time. In future, we will aim to start the assignment sooner so that we will have more time to overcome any difficulties that arise.
 
 # Comments/feedback on the lab itself
