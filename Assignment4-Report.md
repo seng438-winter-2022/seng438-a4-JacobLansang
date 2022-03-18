@@ -89,10 +89,11 @@ Line 123: post-increment/decrement of field upper -> both mutations survived and
 Line 157: pre-increment/decrement of field b0 -> both mutations survived and made very similar changes to the code
 Line 189: not equal to less than AND not equal to less than or equal -> both mutations survived and made very similar changes to the code
 
-The above methodology was applied for finding the equivalent mutants,
+The above methodology was applied for finding the equivalent mutants in both test classes. Equivalent mutants would impact the mutation score by multiplying the number of mutations that were either killed or survived. Since equivalent mutants have the same effect on the SUT, if one of them is caught by a test case, the others should also be caught by the same or similar test cases. Additionally, if a set of equivalent mutants survives testing, it means that there are no test cases which can catch those types of changes in the source code.
 
 # A discussion of what could have been done to improve the mutation score of the test suites
 
+The single largest thing that could have been done to imporve the mutation score of the test suites is ensuring that there were assert statements in the test cases. This was especially true for RangeTest, as there were almost no assert statements in most of the test cases. The lack of assert statements meant that the test cases were never actually checking the output of the SUT. This meant that any changes in the output which reflected the changes in the source code were never picked up by the test suite. As a result, the mutation score was significantly lowered.
 
 # Why do we need mutation testing? Advantages and disadvantages of mutation testing
 
