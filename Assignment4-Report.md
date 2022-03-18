@@ -60,7 +60,7 @@ This mutation pre-decremented
 For the RangeTest.java class, our initial mutation score was 34%, with a total of 431/1259 KILLED mutants, as seen below. 
 ![image](https://user-images.githubusercontent.com/65249093/159017033-9f7fc2e9-6f05-4d8a-8ab0-00de58f1a7ac.png)
 
-After modifying the test cases for RangeTest.java, our final mustation score is 52% with a total of 653/1259 KILLED mutants. The image below shows the result generated from the mutation test report.
+After modifying the test cases for RangeTest.java, our final mutation score is 52% with a total of 653/1259 KILLED mutants. The image below shows the result generated from the mutation test report.
 ![image](https://user-images.githubusercontent.com/65249093/159016887-b99570e4-8dc9-4313-ae04-8d69cfeadbcb.png)
 
 For the DataUtilitiesTest.java class, our initial mutation score was 84%, with a total of 579/687 KILLEd mutants. This result is shown below:
@@ -73,7 +73,7 @@ After modifying the tests cases for DataUtilities.java, our final mutation score
 
 # Analysis drawn on the effectiveness of each of the test 
 Based on the results of the mutation scores, RangeTest has a pretty low effectiveness. It originally resulted in a 34% mutation score, which indicates that our tests did not take into account all possible inputs. 
-On the other hand, our mutation score for DataUtilitiesTest.java was quite high, with a result of 86%. This means that our initial test cases took into account a lot of different possible inputs.
+On the other hand, our mutation score for DataUtilitiesTest.java was quite high, with a result of 84%. This means that our initial test cases took into account a lot of different possible inputs.
 
 # A discussion on the effect of equivalent mutants on mutation score accuracy
 
