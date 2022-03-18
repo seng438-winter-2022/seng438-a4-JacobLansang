@@ -57,9 +57,18 @@ This mutation changed the value of variable number 1 and post-incremented it. Th
 
 This mutation pre-decremented 
 # Report all the statistics and the mutation score for each test class
-For the RangeTest.java class, our initial mutation score was 34%, with a total of 431/1259 KILLED mutants. After modifying the test cases for RangeTest.java, our final mustation score is 52% with a total of 653/1259 KILLED mutants.
+For the RangeTest.java class, our initial mutation score was 34%, with a total of 431/1259 KILLED mutants, as seen below. 
+![image](https://user-images.githubusercontent.com/65249093/159017033-9f7fc2e9-6f05-4d8a-8ab0-00de58f1a7ac.png)
 
-For the DataUtilitiesTest.java class, our initial mutation score was 86%, with a total of sdfs/ssfs KILLEd mutants. After modifying the tests cases for DataUtilities.java, our final mutation score is sf%
+After modifying the test cases for RangeTest.java, our final mustation score is 52% with a total of 653/1259 KILLED mutants. The image below shows the result generated from the mutation test report.
+![image](https://user-images.githubusercontent.com/65249093/159016887-b99570e4-8dc9-4313-ae04-8d69cfeadbcb.png)
+
+For the DataUtilitiesTest.java class, our initial mutation score was 84%, with a total of 579/687 KILLEd mutants. This result is shown below:
+![image](https://user-images.githubusercontent.com/65249093/159017257-a1f07533-c885-4dd7-ae08-772f97c3f935.png)
+
+After modifying the tests cases for DataUtilities.java, our final mutation score is 87%, with 595/687 KILLED mutants:
+![image](https://user-images.githubusercontent.com/65249093/159017460-931c0e53-1c7c-4ea9-8ebb-24d925c5ba3d.png)
+
 
 
 # Analysis drawn on the effectiveness of each of the test 
