@@ -59,7 +59,7 @@ This mutation pre-decremented
 # Report all the statistics and the mutation score for each test class
 For the RangeTest.java class, our initial mutation score was 34%, with a total of 431/1259 KILLED mutants. After modifying the test cases for RangeTest.java, our final mustation score is 52% with a total of 653/1259 KILLED mutants.
 
-For the DataUtilitiesTest.java class, our initial mutation score was 
+For the DataUtilitiesTest.java class, our initial mutation score was 86%, with a total of sdfs/ssfs KILLEd mutants. After modifying the tests cases for DataUtilities.java, our final mutation score is sf%
 
 
 # Analysis drawn on the effectiveness of each of the test classes
