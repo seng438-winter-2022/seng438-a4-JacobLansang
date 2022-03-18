@@ -107,19 +107,22 @@ The above methodology was applied for finding the equivalent mutants,
 In order to create SELENIUM test cases, we first had to determine which functionalities we were going to be checking. We decided to test the sportchek website. We listed off some of the the main functionalities that an average user would execute. More specifically, we decided on:
 |Features |
 |----------|
-|  -Adding an item to the cart|
- | -Purchasing an item|
- | -Clearing shopping cart|
- | -Logging out|
- | -Logging in with valid username and password|
- | -Logging in with invalid username and password|
- | -Registering for an account|
- | -Removing an item from shopping cart|
+ | Adding an item to the cart|
+ | Purchasing an item|
+ | Clearing shopping cart|
+ | Logging out|
+ | Logging in with valid username and password|
+ | Logging in with invalid username and password|
+ | Registering for an account|
+ | Removing an item from shopping cart|
+ 
 Once these functionalities were determined, we planned out which steps needed to be taken in order to accomplish all of these actions. After having determined these steps, we opened up SELENIUM and recorded our sequence of steps.
 
 # Explain the use of assertions and checkpoints
+For tests requiring user input, we added the command "assert value" to check that the inputed value matched the test's expectation.
 
 # How did you test each functionaity with different test data
+In order to check each functionality with different data, we simply duplicated our tests, and replaced the Value being checked with another one. For example, for the login, we 
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
