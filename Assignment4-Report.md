@@ -138,10 +138,10 @@ In order to check each functionality with different data, we simply duplicated o
 
 |Selenium      |  Sikulix   |
 | --------------- | --------------- |
-| It is a simple chromium extension, hence easier to install and get started | It is a legacy app (jar file) and took more effort to get started    | Easy to record tests using record feature |      |
-| Easy to run written tests by simply pressing play               |     |
-| New test cases can be made very quickly    |      |
-| Easy to edit tests. Can drag sequences of test actions around to change the order of actions. |  |
+| It is a simple chromium extension, hence easier to install and get started | It is a legacy app (jar file) and took more effort to get started    | Easy to record tests using record feature | Picture recognition is very accurate     |
+| Easy to run written tests by simply pressing play               | Easy to identify where the application may have a bug or crash    |
+| New test cases can be made very quickly    | New test cases take longer to make compared to Sikulix     |
+| Easy to edit tests. Can drag sequences of test actions around to change the order of actions. | Can be used to analyze the behavior of the application |
 | Sometimes glitches as creation of a new test case on a different website may not work properly               |    |
 | Software can be slow or get stuck on a certain part of the test.               |     |
 
