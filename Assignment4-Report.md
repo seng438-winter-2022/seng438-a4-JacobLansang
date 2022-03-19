@@ -25,7 +25,7 @@ This mutation post-incremented the value called "lower" in the contains methods.
 
 3. Decremented (--a) double fieldupper (contains()) -> KILLED:
 
-This mutation pre-incremented the value called upper in our contains method. This mutation was killed because our tests accounted for 
+This mutation pre-incremented the value called upper in our contains method. This mutation was killed because our tests accounted for this change in the variable when this method gets tested.
 
 4. Greater than to equal -> KILLED (intersects()):
 
@@ -138,11 +138,12 @@ In order to check each functionality with different data, we simply duplicated o
 
 |Selenium      |  Sikulix   |
 | --------------- | --------------- |
-| It is a simple chromium extension, hence easier to install and get started | It is a legacy app (jar file) and took more effort to get started    |
-|                |     |
-|  |  |
-|                |    |
-|                |     |
+| It is a simple chromium extension, hence easier to install and get started | It is a legacy app (jar file) and took more effort to get started    | Easy to record tests using record feature |      |
+| Easy to run written tests by simply pressing play               |     |
+| New test cases can be made very quickly    |      |
+| Easy to edit tests. Can drag sequences of test actions around to change the order of actions. |  |
+| Sometimes glitches as creation of a new test case on a different website may not work properly               |    |
+| Software can be slow or get stuck on a certain part of the test.               |     |
 
 # How the team work/effort was divided and managed
 
