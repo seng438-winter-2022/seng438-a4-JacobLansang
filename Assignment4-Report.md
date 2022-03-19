@@ -11,6 +11,7 @@
 
 # Introduction
 
+In this lab, we will test a software using both Mutation Testing and GUI Testing. In mutation testing, we will use a software called Pitest to inject faults into a software to see our mutation score based on our unit tests. By using these mutation test results, we will attempt to increase our mutation score by attempting to kill the mutants that were not killed by our previously made tests. In GUI testing, we will use the software called Selenium and Sikulix in order to create test cases to be used to test certain functions of online websites. Selenium and Sikulix will help us record test cases and run them in an automated environment.
 
 # Analysis of 10 Mutants of the Range class 
 
