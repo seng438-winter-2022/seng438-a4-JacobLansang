@@ -128,10 +128,10 @@ In order to create SELENIUM test cases, we first had to determine which function
 Once these functionalities were determined, we planned out which steps needed to be taken in order to accomplish all of these actions. After having determined these steps, we opened up SELENIUM and recorded our sequence of steps.
 
 # Explain the use of assertions and checkpoints
-For tests requiring user input, we added the command "assert value" to check that the inputed value matched the test's expectation.
+We added the command "assert value" to check that the inputed value matched the test's expectation. This was especially useful for situations where the tests still required user input. We noticed that SELENIUM did not automate the typing of a text field. This is where assertions were necessary.
 
 # How did you test each functionaity with different test data
-In order to check each functionality with different data, we simply duplicated our tests, and replaced the Value being checked with another one. For example, for the login, we 
+In order to check each functionality with different data, we simply duplicated our tests, and replaced the Value being checked with another one. For example, for the login, we copied the original test, and replaced the input value to be a different, valid email. This allowed us to expand our test data a bit. 
 
 # Discuss advantages and disadvantages of Selenium vs. Sikulix
 
@@ -152,3 +152,4 @@ In order to complete the Part A, we all joined together on a call and one team m
 We all had difficulties running the mutation tests. In the end, one of us managed to get them to run. This meant that we had to be extra mindful of how we went about doing the remainder of the assignment since we could only run the mutation tests once every 15 minutes. Additionally, we were unable to start the lab until later in the week which meant that we were pressed for time and it made it difficult to get the lab done on time. In future, we will aim to start the assignment sooner so that we will have more time to overcome any difficulties that arise.
 
 # Comments/feedback on the lab itself
+This lab was very interesting, and was helpful for learning mutations and GUI testing. However, our group had a hard time getting our environmnet set up for the mutation testing. It would have been useful to have very explicitly stated instructions for setting up external libaries and file structure. This would have helped us to get our testing done sooner.
