@@ -56,7 +56,6 @@ This mutation changed the greater than or equal equality to a less than equality
 This mutation changed the value of variable number 1 and post-incremented it. This mutation survived because we did not have a test case that covered that section of the code. We do not cover the else statement in line 161. 
 
 
-This mutation pre-decremented 
 # Report all the statistics and the mutation score for each test class
 For the RangeTest.java class, our initial mutation score was 34%, with a total of 431/1259 KILLED mutants, as seen below. 
 ![image](https://user-images.githubusercontent.com/65249093/159017033-9f7fc2e9-6f05-4d8a-8ab0-00de58f1a7ac.png)
