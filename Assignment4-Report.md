@@ -138,16 +138,21 @@ In order to check each functionality with different data, we simply duplicated o
 
 |Selenium      |  Sikulix   |
 | --------------- | --------------- |
-| It is a simple chromium extension, hence easier to install and get started | It is a legacy app (jar file) and took more effort to get started    | Easy to record tests using record feature | Picture recognition is very accurate     |
-| Easy to run written tests by simply pressing play               | Easy to identify where the application may have a bug or crash    |
-| New test cases can be made very quickly    | New test cases take longer to make compared to Sikulix     |
+|  It uses the HTML source code to automate | Is based on what it sees on screen    |
+| Does element searches | Does image recogniition |
+| It is far more User Friendly | If GUI elements change their colour, Sikulix is unpredictable |
+| This is a better fit for work applications/ websites| It is a better fit for GUI based applications   |
+| It is a simple chromium extension, hence easier to install and get started | It is a legacy app (jar file) and took more effort to get started   
+| Easy to record tests using record feature | Picture recognition is very accurate |
+| Easy to run written tests by simply pressing play  | Easy to identify where the application may have a bug or crash    |
+| New test cases can be made very quickly | New test cases take longer to make compared to Sikulix     |
 | Easy to edit tests. Can drag sequences of test actions around to change the order of actions. | Can be used to analyze the behavior of the application |
 | Sometimes glitches as creation of a new test case on a different website may not work properly               |    |
 | Software can be slow or get stuck on a certain part of the test.               |     |
 
 # How the team work/effort was divided and managed
 
-In order to complete the Part A, we all joined together on a call and one team member shared their screen. All together, we then went through the work together. We collectively decided what to write for our tests, and the person sharing their screen was in charge of writing down our suggestions. This was very effective, since 4 people were tackling a problem at the same time.
+In order to complete the Part A and B, we all joined together on a call and one team member shared their screen. All together, we then went through the work together. We collectively decided what to write for our tests, and the person sharing their screen was in charge of writing down our suggestions. This was very effective, since 4 people were tackling a problem at the same time.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
